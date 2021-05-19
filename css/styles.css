@@ -1,0 +1,179 @@
+/*
+COLOR PALETTE
+https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
+$prussian-blue: rgba(0, 48, 73, 1);
+$maximum-red: rgba(214, 40, 40, 1);
+$orange: rgba(247, 127, 0, 1);
+$maximum-yellow-red: rgba(252, 191, 73, 1);
+$lemon-meringue: rgba(234, 226, 183, 1);
+$dark: rgba(38, 12, 12, 1);
+*/
+
+/* Global styles
+------------------------------------*/
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  color: rgba(38, 12, 12, 1);
+  margin: 0;
+  padding: 0;
+  font-family: "Karla", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.3;
+}
+img {
+  width: 300px;
+}
+a {
+  color: #ffe66d;
+}
+a:hover {
+  text-decoration: none;
+}
+h1 {
+  font-family: "Karla";
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 1;
+  margin: 0;
+  color: rgba(234, 226, 183, 1);
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  font-family: "Karla";
+  font-weight: 200;
+  font-size: 35px;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+}
+.content-wrap {
+  max-width: 800px;
+  width: 85%;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+h3 {
+  margin-bottom: 0;
+}
+.item-details h3 + p {
+  font-style: italic;
+}
+.item-details h3 ~ p {
+  margin: 0;
+}
+.divider > section {
+  border-bottom: 1px dashed #343434;
+  padding: 25px 0;
+}
+.divider > section:last-of-type {
+  border-bottom: none;
+}
+h4 {
+  font-family: "Karla";
+  font-weight: 400;
+  font-size: 35px;
+  margin: 0;
+  padding: 0;
+}
+h6 {
+  font-family: "Karla";
+  font-weight: 400;
+  font-size: 35px;
+  margin: 0;
+  padding: 0;
+  color: rgba(234, 226, 183, 1);
+}
+li {
+  margin-bottom: 20px;
+}
+
+/* Profile
+------------------------------------*/
+header {
+  background: rgba(0, 48, 73, 1);
+  color: rgba(234, 226, 183, 1);
+  text-align: left;
+}
+
+/* Projects
+------------------------------------*/
+.projects {
+  background: #f7fff7;
+}
+.projects a {
+  color: #2f3061;
+}
+.projects .btn {
+  color: #f7fff7;
+  background: #2f3061;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 4px;
+  display: inline-block;
+}
+.projects .btn:hover {
+  background: rgba(47, 48, 97, 80%);
+}
+.project-item {
+  overflow: visible;
+}
+.project-item img {
+  float: left;
+  margin-right: 20px;
+}
+.project-item h3 {
+  margin-top: 0;
+}
+
+/* Work Experience
+------------------------------------*/
+.work-experience {
+  background: #a1c6d7;
+}
+.job-item {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 20px;
+}
+
+/* Education
+------------------------------------*/
+.education {
+  background-image: url(../images/flopped43.png);
+  background-size: cover;
+  background-position: top left;
+  margin: 0;
+  padding: 0;
+}
+.education p {
+  width: 60%;
+}
+
+/* Contact Info
+------------------------------------*/
+footer {
+  background: #343434;
+  color: #f7fff7;
+  text-align: center;
+}
+.contact-list {
+  list-style-type: none;
+  padding: 20;
+  display: flex;
+  justify-content: center;
+}
+.contact-list a {
+  margin: 20;
+  padding: 20px;
+  display: inline-block;
+}
